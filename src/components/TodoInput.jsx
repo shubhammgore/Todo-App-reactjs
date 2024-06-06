@@ -17,6 +17,7 @@ const TodoInput = (props) => {
       <button
         onClick={() => {
           handleAddTodos(todoValue);
+          setTodoValue('') // For resetting empty input 
         }}
       >
         Add
